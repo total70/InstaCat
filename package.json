@@ -1,0 +1,12 @@
+{
+  "name": "legacy-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "docker": "docker run --rm -v "$(pwd):/var/www/html/" -p 8989:80 catapp:latest",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

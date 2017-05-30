@@ -1,0 +1,31 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 960px;
+}
+
+.header{
+  height: 150px;
+}
+
+.container {
+  height: 800px;
+}
+
+.content {
+  background-color: #f17008;
+  float: left;
+  height: 100%;
+  width: 660px;
+}
+
+.nav {
+  background-color: #f601ff;
+  float: left;  
+  width: 300px;
+  height: 100%;
+}
